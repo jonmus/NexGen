@@ -1,0 +1,216 @@
+/*
+************************************************************
+*                                                          *
+*                   COPYRIGHT NOTICE                       *
+*                                                          *
+*  © 2024 NexGen Connect. All Rights Reserved.             *
+*                                                          *
+*  This CSS code is the intellectual property of           *
+*  NexGen Connect. Duplication, modification, or           *
+*  unauthorized use of this code is strictly prohibited    *
+*  without express written consent from NexGen Connect.    *
+*                                                          *
+************************************************************
+*/
+
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    padding:0;
+    margin:0;
+    background:#878ea2;
+    box-sizing: border-box;
+    
+}
+span{
+    color:#ff001f;
+    font-weight:bold;
+    font-size:15px;
+}
+.frm{
+    width:80vw;
+    background: #ee95ffda;
+    border: none ;
+    border-radius:15px;
+    box-shadow: 0 0 5px #000000e4;
+    padding: 5px;
+    margin:10px;
+}
+.para{
+    font-size:15px;
+}
+h3{
+    color: #1523ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.personal{
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    margin-top: -10px;
+}
+.name{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    outline:none;
+    background: transparent;
+    border: 1px solid #1523ff;
+    padding: 2px;
+    color:#1523ff;
+    text-transform:capitalize; by
+    font-size:18px;
+    
+}
+.name input,.add input,.area input, .cont input{
+    height: 25px;
+
+}
+.DoB{
+    flex-direction:row;
+    margin-top:15px;
+    
+}
+.DoB select,.local select{
+    width: 100px;
+    height:25px;
+    background: transparent;
+    border: 1px solid #1523ff;
+    justify-content:space-between;
+    color:#1523ff;
+    outline:none;
+    font-size:18px;
+}
+.gender{
+    display:flex;
+    flex-direction: column;
+    }
+    
+.gen-all, .sec{
+    display:flex;
+    flex-direction: row;
+    color: #1523ff;
+    margin-top: -10px;    
+    font-size:18px;
+}
+
+.gen-all{
+    justify-content: space-around;
+}
+
+label{
+    color: #1523ff;
+    font-size: 20px;
+    padding: 3.5px;
+    margin-top:5px;
+    font-weight:bolder;
+    
+}
+
+.contact{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    flex-direction:column;
+}
+.add{
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.local,.area, .cont{
+    display:flex;
+    flex-direction:column;
+}
+.web, . program, .game{
+    width:100%;
+}
+.local select{
+    width:100%;
+   
+}
+.skills{
+    width:100%;
+    padding:5px;
+    
+}
+h4{
+    text-transform:capitalize;
+    font-size: 17px;
+}
+.skills .line{
+    width:5px; 
+    height: 20vw;
+    margin: 20px 5px 0 0;
+    border:none;
+    border-right: 2px dotted #1523ff;
+    
+}
+.bt{
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+}
+
+.btn{
+    margin: 30px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    color: #fff;a
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline:none;
+    border:none;
+    border-radius:50px;
+    background:#1523ff;
+    box-shadow:-1px 2px 6px #131625e6;
+}
+
+. programs{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+}
+
+.chk{
+display:flex;
+    flex-direction: row;
+ 
+    
+    
+    
+}
+.chk p{
+    color:#1523ff;
+    text-style: italic;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/*
+************************************************************
+*                                                          *
+*                   COPYRIGHT NOTICE                       *
+*                                                          *
+*  © 2024 NexGen Connect. All Rights Reserved.             *
+*                                                          *
+*  This CSS code is the intellectual property of           *
+*  NexGen Connect. Duplication, modification, or           *
+*  unauthorized use of this code is strictly prohibited    *
+*  without express written consent from NexGen Connect.    *
+*                                                          *
+************************************************************
+*/
